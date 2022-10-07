@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/categories-tabs",
+  "version": "0.1.0",
+  "title": "Categories Tabs",
+  "category": "widgets",
+  "icon": "category",
+  "description": "Create tab based categories.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "selectCat": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "categories-tabs",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
